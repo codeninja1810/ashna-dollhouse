@@ -1,0 +1,1030 @@
+[
+ {
+  "id": "c1-pass",
+  "text": "The Little Duck. Dolly is a little duck. She lives near a big pond. Every morning she swims in the cool water. Dolly has soft yellow feathers and a small orange beak. She likes to eat bread and tiny fish. When it rains, Dolly is very happy. She flaps her wings and quacks loudly. Her mother calls her home when the sun goes down."
+ },
+ {
+  "id": "c1-0-q",
+  "text": "What is the little duck's name? Is it: Polly? Or: Dolly? Or: Molly?"
+ },
+ {
+  "id": "c1-0-fb",
+  "text": "Not quite. The answer is: Dolly. The very first line tells us — Dolly is a little duck."
+ },
+ {
+  "id": "c1-1-q",
+  "text": "Where does Dolly live? Is it: Near a big pond? Or: In a tall tree? Or: Inside a cave?"
+ },
+ {
+  "id": "c1-1-fb",
+  "text": "Not quite. The answer is: Near a big pond. She lives near a big pond."
+ },
+ {
+  "id": "c1-2-q",
+  "text": "What colour are Dolly's feathers? Is it: Brown? Or: White? Or: Yellow?"
+ },
+ {
+  "id": "c1-2-fb",
+  "text": "Not quite. The answer is: Yellow. Dolly has soft yellow feathers."
+ },
+ {
+  "id": "c1-3-q",
+  "text": "What does Dolly do when it rains? Is it: She hides under a leaf? Or: She flaps her wings and quacks? Or: She goes to sleep?"
+ },
+ {
+  "id": "c1-3-fb",
+  "text": "Not quite. The answer is: She flaps her wings and quacks. Rain makes her happy, so she flaps and quacks loudly."
+ },
+ {
+  "id": "c1-4-q",
+  "text": "Who calls Dolly home? Is it: Her mother? Or: Her friend? Or: The farmer?"
+ },
+ {
+  "id": "c1-4-fb",
+  "text": "Not quite. The answer is: Her mother. Her mother calls her home when the sun goes down."
+ },
+ {
+  "id": "c1-5-q",
+  "text": "Write the naming word for the water Dolly lives near. Here is a hint. It rhymes with fond — 4 letters."
+ },
+ {
+  "id": "c1-5-fb",
+  "text": "Not quite. The answer is: pond."
+ },
+ {
+  "id": "c2-pass",
+  "text": "Meera's Garden. Meera has a small garden behind her house. She grows red roses and yellow sunflowers. Every evening she waters the plants with a green can. A brown squirrel comes and sits on the wall. Meera gives it a few nuts. The squirrel is not afraid of her. It is her little friend."
+ },
+ {
+  "id": "c2-0-q",
+  "text": "Where is Meera's garden? Is it: In front of her school? Or: Behind her house? Or: On the roof?"
+ },
+ {
+  "id": "c2-0-fb",
+  "text": "Not quite. The answer is: Behind her house. Meera has a small garden behind her house."
+ },
+ {
+  "id": "c2-1-q",
+  "text": "Which two flowers does Meera grow? Is it: Roses and sunflowers? Or: Lilies and daisies? Or: Roses and tulips?"
+ },
+ {
+  "id": "c2-1-fb",
+  "text": "Not quite. The answer is: Roses and sunflowers. She grows red roses and yellow sunflowers."
+ },
+ {
+  "id": "c2-2-q",
+  "text": "What colour is her watering can? Is it: Blue? Or: Red? Or: Green?"
+ },
+ {
+  "id": "c2-2-fb",
+  "text": "Not quite. The answer is: Green. She waters the plants with a green can."
+ },
+ {
+  "id": "c2-3-q",
+  "text": "Who comes and sits on the wall? Is it: A brown squirrel? Or: A black cat? Or: A little bird?"
+ },
+ {
+  "id": "c2-3-fb",
+  "text": "Not quite. The answer is: A brown squirrel. A brown squirrel comes to visit her every evening."
+ },
+ {
+  "id": "c2-4-q",
+  "text": "Why is the squirrel not afraid of Meera? Is it: Because it cannot see her? Or: Because she is its little friend? Or: Because it is very brave?"
+ },
+ {
+  "id": "c2-4-fb",
+  "text": "Not quite. The answer is: Because she is its little friend. The passage ends: It is her little friend."
+ },
+ {
+  "id": "c2-5-q",
+  "text": "Meera is a special name, so it is a blank noun. Here is a hint. Special names start with a capital letter."
+ },
+ {
+  "id": "c2-5-fb",
+  "text": "Not quite. The answer is: proper."
+ },
+ {
+  "id": "c3-pass",
+  "text": "The Kind Elephant. Raju is a big grey elephant. He lives in a green forest with his friends. One hot day, a little rabbit could not find any water. Raju filled his long trunk with water from the river. He gave the water to the thirsty rabbit. Thank you, Raju! said the rabbit. Raju was very happy that he could help."
+ },
+ {
+  "id": "c3-0-q",
+  "text": "What is the elephant's name? Is it: Raja? Or: Raju? Or: Ramu?"
+ },
+ {
+  "id": "c3-0-fb",
+  "text": "Not quite. The answer is: Raju. Raju is a big grey elephant."
+ },
+ {
+  "id": "c3-1-q",
+  "text": "Where does Raju live? Is it: In a green forest? Or: In a zoo? Or: Near a village?"
+ },
+ {
+  "id": "c3-1-fb",
+  "text": "Not quite. The answer is: In a green forest. He lives in a green forest with his friends."
+ },
+ {
+  "id": "c3-2-q",
+  "text": "Who could not find any water? Is it: A little rabbit? Or: A baby deer? Or: A thirsty bird?"
+ },
+ {
+  "id": "c3-2-fb",
+  "text": "Not quite. The answer is: A little rabbit. On a hot day the little rabbit could find no water."
+ },
+ {
+  "id": "c3-3-q",
+  "text": "What did Raju use to carry the water? Is it: A big leaf? Or: A clay pot? Or: His long trunk?"
+ },
+ {
+  "id": "c3-3-fb",
+  "text": "Not quite. The answer is: His long trunk. Raju filled his long trunk with water from the river."
+ },
+ {
+  "id": "c3-4-q",
+  "text": "How did Raju feel after helping? Is it: Tired? Or: Very happy? Or: Puzzled?"
+ },
+ {
+  "id": "c3-4-fb",
+  "text": "Not quite. The answer is: Very happy. He was very happy that he could help."
+ },
+ {
+  "id": "c3-5-q",
+  "text": "A baby elephant is called a blank . Here is a hint. Same word as a baby hippo! 4 letters."
+ },
+ {
+  "id": "c3-5-fb",
+  "text": "Not quite. The answer is: calf."
+ },
+ {
+  "id": "g1-0-q",
+  "text": "A common noun is a naming word for, Is it: one special person or place? Or: any person, place, animal or thing? Or: an action word?"
+ },
+ {
+  "id": "g1-0-fb",
+  "text": "Not quite. The answer is: any person, place, animal or thing. Common nouns name things in general — girl, city, dog, cup."
+ },
+ {
+  "id": "g1-1-q",
+  "text": "Which word is a common noun? Is it: Penny? Or: hen? Or: Happy?"
+ },
+ {
+  "id": "g1-1-fb",
+  "text": "Not quite. The answer is: hen. hen names any hen. Penny and Happy are special names."
+ },
+ {
+  "id": "g1-2-q",
+  "text": "Pick the common noun: The lion has a long tail. Is it: long? Or: has? Or: tail?"
+ },
+ {
+  "id": "g1-2-fb",
+  "text": "Not quite. The answer is: tail. tail is a thing you can name. long describes it."
+ },
+ {
+  "id": "g1-3-q",
+  "text": "Which one is NOT a common noun? Is it: swing? Or: river? Or: Ashna?"
+ },
+ {
+  "id": "g1-3-fb",
+  "text": "Not quite. The answer is: Ashna. Ashna is your own special name — that makes it a proper noun."
+ },
+ {
+  "id": "g1-4-q",
+  "text": "How many common nouns are here? The hippo made holes in the mud. Is it: One? Or: Two? Or: Three?"
+ },
+ {
+  "id": "g1-4-fb",
+  "text": "Not quite. The answer is: Three. hippo, holes and mud — three naming words."
+ },
+ {
+  "id": "g1-5-q",
+  "text": "Which word names a place? Is it: quiet? Or: lake? Or: bleat?"
+ },
+ {
+  "id": "g1-5-fb",
+  "text": "Not quite. The answer is: lake. A lake is a place. quiet describes and bleat is a sound."
+ },
+ {
+  "id": "g1-6-q",
+  "text": "Common nouns begin with a capital letter, Is it: always? Or: never, unless they start the sentence? Or: only for animals?"
+ },
+ {
+  "id": "g1-6-fb",
+  "text": "Not quite. The answer is: never, unless they start the sentence. Only proper nouns always take a capital."
+ },
+ {
+  "id": "g1-7-q",
+  "text": "Write the common noun for the animal Penny is. Here is a hint. Penny is a, 3 letters."
+ },
+ {
+  "id": "g1-7-fb",
+  "text": "Not quite. The answer is: hen."
+ },
+ {
+  "id": "g2-0-q",
+  "text": "A baby lion is called a, Is it: cub? Or: kid? Or: foal?"
+ },
+ {
+  "id": "g2-0-fb",
+  "text": "Not quite. The answer is: cub. Lion , cub. Bears and tigers have cubs too."
+ },
+ {
+  "id": "g2-1-q",
+  "text": "A baby sheep is called a, Is it: calf? Or: lamb? Or: chick?"
+ },
+ {
+  "id": "g2-1-fb",
+  "text": "Not quite. The answer is: lamb. Sheep , lamb — just like your poem!"
+ },
+ {
+  "id": "g2-2-q",
+  "text": "A baby hippo is called a, Is it: pup? Or: joey? Or: calf?"
+ },
+ {
+  "id": "g2-2-fb",
+  "text": "Not quite. The answer is: calf. Your hippo facts page says it: a baby hippo is a calf."
+ },
+ {
+  "id": "g2-3-q",
+  "text": "A baby hen is called a, Is it: chick? Or: cub? Or: kitten?"
+ },
+ {
+  "id": "g2-3-fb",
+  "text": "Not quite. The answer is: chick. Hen , chick."
+ },
+ {
+  "id": "g2-4-q",
+  "text": "A baby dog is called a, Is it: kitten? Or: puppy? Or: fawn?"
+ },
+ {
+  "id": "g2-4-fb",
+  "text": "Not quite. The answer is: puppy. Dog , puppy."
+ },
+ {
+  "id": "g2-5-q",
+  "text": "A baby cat is called a, Is it: kitten? Or: cub? Or: kid?"
+ },
+ {
+  "id": "g2-5-fb",
+  "text": "Not quite. The answer is: kitten. Cat , kitten."
+ },
+ {
+  "id": "g2-6-q",
+  "text": "A baby duck is called a, Is it: duckling? Or: chick? Or: gosling?"
+ },
+ {
+  "id": "g2-6-fb",
+  "text": "Not quite. The answer is: duckling. Duck , duckling."
+ },
+ {
+  "id": "g2-7-q",
+  "text": "A baby horse is called a, Is it: calf? Or: foal? Or: kid?"
+ },
+ {
+  "id": "g2-7-fb",
+  "text": "Not quite. The answer is: foal. Horse , foal."
+ },
+ {
+  "id": "g2-8-q",
+  "text": "A baby frog is called a, Is it: tadpole? Or: froglet? Or: minnow?"
+ },
+ {
+  "id": "g2-8-fb",
+  "text": "Not quite. The answer is: tadpole. Frog , tadpole — it swims before it hops."
+ },
+ {
+  "id": "g2-9-q",
+  "text": "A baby goat is called a, Is it: lamb? Or: kid? Or: calf?"
+ },
+ {
+  "id": "g2-9-fb",
+  "text": "Not quite. The answer is: kid. Goat , kid."
+ },
+ {
+  "id": "g2-10-q",
+  "text": "A baby cow is called a, Is it: calf? Or: colt? Or: piglet?"
+ },
+ {
+  "id": "g2-10-fb",
+  "text": "Not quite. The answer is: calf. Cow , calf."
+ },
+ {
+  "id": "g2-11-q",
+  "text": "A baby elephant is also called a blank . Here is a hint. Same as a cow and a hippo."
+ },
+ {
+  "id": "g2-11-fb",
+  "text": "Not quite. The answer is: calf."
+ },
+ {
+  "id": "g3-0-q",
+  "text": "A proper noun is, Is it: the special name of one person, place or thing? Or: any naming word? Or: a doing word?"
+ },
+ {
+  "id": "g3-0-fb",
+  "text": "Not quite. The answer is: the special name of one person, place or thing. Proper nouns name one particular thing — and always take a capital."
+ },
+ {
+  "id": "g3-1-q",
+  "text": "Which is a proper noun? Is it: hippo? Or: Happy? Or: lake?"
+ },
+ {
+  "id": "g3-1-fb",
+  "text": "Not quite. The answer is: Happy. Happy is the hippo's own name."
+ },
+ {
+  "id": "g3-2-q",
+  "text": "Every proper noun begins with, Is it: a small letter? Or: a capital letter? Or: a full stop?"
+ },
+ {
+  "id": "g3-2-fb",
+  "text": "Not quite. The answer is: a capital letter. Always a capital letter, wherever it sits in the sentence."
+ },
+ {
+  "id": "g3-3-q",
+  "text": "Who wrote the poem The Swing? Is it: Robert Louis Stevenson? Or: Rudyard Kipling? Or: Roald Dahl?"
+ },
+ {
+  "id": "g3-3-fb",
+  "text": "Not quite. The answer is: Robert Louis Stevenson. His name is printed at the bottom of page 68 — and it is a proper noun."
+ },
+ {
+  "id": "g3-4-q",
+  "text": "Which sentence is written correctly? Is it: penny the hen looked for worms.? Or: Penny the hen looked for worms.? Or: Penny The Hen looked for worms.?"
+ },
+ {
+  "id": "g3-4-fb",
+  "text": "Not quite. The answer is: Penny the hen looked for worms.. Only Penny needs the capital — hen is a common noun."
+ },
+ {
+  "id": "g3-5-q",
+  "text": "Which of these is NOT a proper noun? Is it: India? Or: Monday? Or: country?"
+ },
+ {
+  "id": "g3-5-fb",
+  "text": "Not quite. The answer is: country. country names any country. India names one."
+ },
+ {
+  "id": "g3-6-q",
+  "text": "Pick the proper noun: Meera waters her garden. Is it: Meera? Or: waters? Or: garden?"
+ },
+ {
+  "id": "g3-6-fb",
+  "text": "Not quite. The answer is: Meera. Meera is her special name."
+ },
+ {
+  "id": "g3-7-q",
+  "text": "Write the hen's name from your story, with its capital letter. Here is a hint. Begins with P — remember the capital!"
+ },
+ {
+  "id": "g3-7-fb",
+  "text": "Not quite. The answer is: Penny."
+ },
+ {
+  "id": "g4-0-q",
+  "text": "The female of a lion is a, Is it: lioness? Or: lionette? Or: she-lion?"
+ },
+ {
+  "id": "g4-0-fb",
+  "text": "Not quite. The answer is: lioness. Lion , lioness."
+ },
+ {
+  "id": "g4-1-q",
+  "text": "A male hippo is called a, Is it: bull? Or: stag? Or: cock?"
+ },
+ {
+  "id": "g4-1-fb",
+  "text": "Not quite. The answer is: bull. Straight from your hippo facts page — a male hippo is a bull."
+ },
+ {
+  "id": "g4-2-q",
+  "text": "A female hippo is called a, Is it: mare? Or: cow? Or: doe?"
+ },
+ {
+  "id": "g4-2-fb",
+  "text": "Not quite. The answer is: cow. Also on your facts page — a female hippo is a cow."
+ },
+ {
+  "id": "g4-3-q",
+  "text": "The male of a hen is a, Is it: cock? Or: drake? Or: gander?"
+ },
+ {
+  "id": "g4-3-fb",
+  "text": "Not quite. The answer is: cock. Hen , cock (also called a rooster)."
+ },
+ {
+  "id": "g4-4-q",
+  "text": "The female of a king is a, Is it: princess? Or: queen? Or: lady?"
+ },
+ {
+  "id": "g4-4-fb",
+  "text": "Not quite. The answer is: queen. King , queen."
+ },
+ {
+  "id": "g4-5-q",
+  "text": "The male of an aunt is an, Is it: uncle? Or: nephew? Or: cousin?"
+ },
+ {
+  "id": "g4-5-fb",
+  "text": "Not quite. The answer is: uncle. Aunt , uncle."
+ },
+ {
+  "id": "g4-6-q",
+  "text": "The female of a brother is a, Is it: mother? Or: sister? Or: daughter?"
+ },
+ {
+  "id": "g4-6-fb",
+  "text": "Not quite. The answer is: sister. Brother , sister."
+ },
+ {
+  "id": "g4-7-q",
+  "text": "The female of a tiger is a, Is it: tigress? Or: tigeress? Or: she-tiger?"
+ },
+ {
+  "id": "g4-7-fb",
+  "text": "Not quite. The answer is: tigress. Tiger , tigress — one s before ess."
+ },
+ {
+  "id": "g4-8-q",
+  "text": "The male of a woman is a, Is it: boy? Or: man? Or: son?"
+ },
+ {
+  "id": "g4-8-fb",
+  "text": "Not quite. The answer is: man. Woman , man."
+ },
+ {
+  "id": "g4-9-q",
+  "text": "The female of a peacock is a, Is it: peahen? Or: peabird? Or: peacockess?"
+ },
+ {
+  "id": "g4-9-fb",
+  "text": "Not quite. The answer is: peahen. Peacock , peahen."
+ },
+ {
+  "id": "g4-10-q",
+  "text": "The female of a nephew is a, Is it: niece? Or: cousin? Or: aunt?"
+ },
+ {
+  "id": "g4-10-fb",
+  "text": "Not quite. The answer is: niece. Nephew , niece."
+ },
+ {
+  "id": "g4-11-q",
+  "text": "The female of prince is a blank . Here is a hint. Add -ess to the end."
+ },
+ {
+  "id": "g4-11-fb",
+  "text": "Not quite. The answer is: princess."
+ },
+ {
+  "id": "g5-0-q",
+  "text": "Singular means, Is it: only one? Or: many? Or: none?"
+ },
+ {
+  "id": "g5-0-fb",
+  "text": "Not quite. The answer is: only one. Singular = one. Plural = more than one."
+ },
+ {
+  "id": "g5-1-q",
+  "text": "The plural of worm is, Is it: wormes? Or: worms? Or: wormies?"
+ },
+ {
+  "id": "g5-1-fb",
+  "text": "Not quite. The answer is: worms. Most words just add s — worm , worms."
+ },
+ {
+  "id": "g5-2-q",
+  "text": "The plural of box is, Is it: boxs? Or: boxes? Or: boxies?"
+ },
+ {
+  "id": "g5-2-fb",
+  "text": "Not quite. The answer is: boxes. Words ending in x take -es."
+ },
+ {
+  "id": "g5-3-q",
+  "text": "The plural of baby is, Is it: babys? Or: babies? Or: babyes?"
+ },
+ {
+  "id": "g5-3-fb",
+  "text": "Not quite. The answer is: babies. A word ending in a consonant + y changes y to ies."
+ },
+ {
+  "id": "g5-4-q",
+  "text": "The plural of child is, Is it: childs? Or: childrens? Or: children?"
+ },
+ {
+  "id": "g5-4-fb",
+  "text": "Not quite. The answer is: children. Child , children. A special one to remember."
+ },
+ {
+  "id": "g5-5-q",
+  "text": "The plural of foot is, Is it: foots? Or: feet? Or: footes?"
+ },
+ {
+  "id": "g5-5-fb",
+  "text": "Not quite. The answer is: feet. Foot , feet — the word changes inside."
+ },
+ {
+  "id": "g5-6-q",
+  "text": "The plural of mouse is, Is it: mouses? Or: mice? Or: mices?"
+ },
+ {
+  "id": "g5-6-fb",
+  "text": "Not quite. The answer is: mice. Mouse , mice."
+ },
+ {
+  "id": "g5-7-q",
+  "text": "The plural of leaf is, Is it: leafs? Or: leaves? Or: leafes?"
+ },
+ {
+  "id": "g5-7-fb",
+  "text": "Not quite. The answer is: leaves. The f becomes ves — leaf , leaves."
+ },
+ {
+  "id": "g5-8-q",
+  "text": "The plural of sheep is, Is it: sheep? Or: sheeps? Or: sheepes?"
+ },
+ {
+  "id": "g5-8-fb",
+  "text": "Not quite. The answer is: sheep. Sheep stays sheep! One sheep, ten sheep."
+ },
+ {
+  "id": "g5-9-q",
+  "text": "The plural of glass is, Is it: glasss? Or: glasses? Or: glass?"
+ },
+ {
+  "id": "g5-9-fb",
+  "text": "Not quite. The answer is: glasses. Words ending in ss take -es."
+ },
+ {
+  "id": "g5-10-q",
+  "text": "The plural of tooth is, Is it: teeth? Or: tooths? Or: toothes?"
+ },
+ {
+  "id": "g5-10-fb",
+  "text": "Not quite. The answer is: teeth. Tooth , teeth."
+ },
+ {
+  "id": "g5-11-q",
+  "text": "Which sentence is correct? Is it: Happy made many hole.? Or: Happy made many holes.? Or: Happy made many holees.?"
+ },
+ {
+  "id": "g5-11-fb",
+  "text": "Not quite. The answer is: Happy made many holes.. many needs the plural — holes."
+ },
+ {
+  "id": "g5-12-q",
+  "text": "Write the plural of story. Here is a hint. Change the y to ies."
+ },
+ {
+  "id": "g5-12-fb",
+  "text": "Not quite. The answer is: stories."
+ },
+ {
+  "id": "g5-13-q",
+  "text": "Write the plural of knife. Here is a hint. The f turns into ves."
+ },
+ {
+  "id": "g5-13-fb",
+  "text": "Not quite. The answer is: knives."
+ },
+ {
+  "id": "p1-0-q",
+  "text": "Why is the hippo called Happy? Is it: Because he is a happy hippo? Or: Because he lives in a lake? Or: Because he likes worms?"
+ },
+ {
+  "id": "p1-0-fb",
+  "text": "Not quite. The answer is: Because he is a happy hippo. Happy is a happy hippo. That is why he is called Happy the hippo."
+ },
+ {
+  "id": "p1-1-q",
+  "text": "Where was Happy at the start of the story? Is it: In the mud? Or: In the lake? Or: On the bank?"
+ },
+ {
+  "id": "p1-1-fb",
+  "text": "Not quite. The answer is: In the lake. One day, Happy is in the lake."
+ },
+ {
+  "id": "p1-2-q",
+  "text": "Who came along? Is it: Penny the hen? Or: Polly the duck? Or: Pinky the pig?"
+ },
+ {
+  "id": "p1-2-fb",
+  "text": "Not quite. The answer is: Penny the hen. Penny the hen came along, looking for worms."
+ },
+ {
+  "id": "p1-3-q",
+  "text": "What was Penny looking for? Is it: Seeds? Or: Worms? Or: Her chicks?"
+ },
+ {
+  "id": "p1-3-fb",
+  "text": "Not quite. The answer is: Worms. I am looking for worms, says Penny."
+ },
+ {
+  "id": "p1-4-q",
+  "text": "How did Happy help Penny? Is it: He made holes in the mud? Or: He caught fish for her? Or: He carried her across?"
+ },
+ {
+  "id": "p1-4-fb",
+  "text": "Not quite. The answer is: He made holes in the mud. His heavy feet made holes, and the worms came out."
+ },
+ {
+  "id": "p1-5-q",
+  "text": "What sound did Happy's feet make on the bank? Is it: Tip, tap, tip? Or: Plod, plod, plod? Or: Clip, clop, clip?"
+ },
+ {
+  "id": "p1-5-fb",
+  "text": "Not quite. The answer is: Plod, plod, plod. Plod, plod, plod! Squish, squash, squelch, squeak!"
+ },
+ {
+  "id": "p1-6-q",
+  "text": "Why was Happy puzzled? Is it: Penny said she was happy, and that is his name? Or: He could not find the lake? Or: Penny ran away?"
+ },
+ {
+  "id": "p1-6-fb",
+  "text": "Not quite. The answer is: Penny said she was happy, and that is his name. He thought only he could be Happy — but Penny meant the feeling."
+ },
+ {
+  "id": "p1-7-q",
+  "text": "What did Penny take away at the end? Is it: A big fat worm? Or: A small stone? Or: A green leaf?"
+ },
+ {
+  "id": "p1-7-fb",
+  "text": "Not quite. The answer is: A big fat worm. Penny the hen picks up a big, fat worm."
+ },
+ {
+  "id": "p2-0-q",
+  "text": "What does puzzled mean? Is it: Very tired? Or: Not able to understand? Or: Very pleased?"
+ },
+ {
+  "id": "p2-0-fb",
+  "text": "Not quite. The answer is: Not able to understand. Puzzled = not able to understand."
+ },
+ {
+  "id": "p2-1-q",
+  "text": "What does squishy mean? Is it: Soft and wet? Or: Hard and dry? Or: Cold and sharp?"
+ },
+ {
+  "id": "p2-1-fb",
+  "text": "Not quite. The answer is: Soft and wet. Squishy = soft and wet, like the muddy bank."
+ },
+ {
+  "id": "p2-2-q",
+  "text": "What is a bank in this story? Is it: A place to keep money? Or: The land around a lake or river? Or: A long seat?"
+ },
+ {
+  "id": "p2-2-fb",
+  "text": "Not quite. The answer is: The land around a lake or river. Here it means the land around a lake or river."
+ },
+ {
+  "id": "p2-3-q",
+  "text": "What does hop mean? Is it: Move by jumping? Or: Move very slowly? Or: Swim under water?"
+ },
+ {
+  "id": "p2-3-fb",
+  "text": "Not quite. The answer is: Move by jumping. Hop = move by jumping, the way Penny does."
+ },
+ {
+  "id": "p2-4-q",
+  "text": "What does silly mean? Is it: Clever? Or: Foolish? Or: Sleepy?"
+ },
+ {
+  "id": "p2-4-fb",
+  "text": "Not quite. The answer is: Foolish. Silly = foolish."
+ },
+ {
+  "id": "p2-5-q",
+  "text": "The opposite of happy is, Is it: sad? Or: glad? Or: merry?"
+ },
+ {
+  "id": "p2-5-fb",
+  "text": "Not quite. The answer is: sad. happy and sad / unhappy."
+ },
+ {
+  "id": "p2-6-q",
+  "text": "The opposite of fat is, Is it: big? Or: thin? Or: round?"
+ },
+ {
+  "id": "p2-6-fb",
+  "text": "Not quite. The answer is: thin. fat and thin."
+ },
+ {
+  "id": "p2-7-q",
+  "text": "The opposite of big is, Is it: small? Or: tall? Or: wide?"
+ },
+ {
+  "id": "p2-7-fb",
+  "text": "Not quite. The answer is: small. big and small / little."
+ },
+ {
+  "id": "p2-8-q",
+  "text": "Write the word that means a creeping animal with a long thin body. Here is a hint. Penny was looking for them — 4 letters."
+ },
+ {
+  "id": "p2-8-fb",
+  "text": "Not quite. The answer is: worm."
+ },
+ {
+  "id": "p2-9-q",
+  "text": "Write the word that means not able to understand. Here is a hint. Two z's in the middle."
+ },
+ {
+  "id": "p2-9-fb",
+  "text": "Not quite. The answer is: puzzled."
+ },
+ {
+  "id": "p3-0-q",
+  "text": "Where are hippos found? Is it: Africa? Or: Australia? Or: Antarctica?"
+ },
+ {
+  "id": "p3-0-fb",
+  "text": "Not quite. The answer is: Africa. Hippos are found in Africa."
+ },
+ {
+  "id": "p3-1-q",
+  "text": "Hippopotamus means river horse in which language? Is it: Latin? Or: Greek? Or: French?"
+ },
+ {
+  "id": "p3-1-fb",
+  "text": "Not quite. The answer is: Greek. It comes from Greek."
+ },
+ {
+  "id": "p3-2-q",
+  "text": "Why do hippos rest in water? Is it: To keep cool? Or: To catch fish? Or: To sleep better?"
+ },
+ {
+  "id": "p3-2-fb",
+  "text": "Not quite. The answer is: To keep cool. Resting in water helps keep hippos cool."
+ },
+ {
+  "id": "p3-3-q",
+  "text": "Where are baby hippos born? Is it: In the mud? Or: In water? Or: On the bank?"
+ },
+ {
+  "id": "p3-3-fb",
+  "text": "Not quite. The answer is: In water. Baby hippos are born in water."
+ },
+ {
+  "id": "p3-4-q",
+  "text": "Can a hippo run faster than a human? Is it: Yes, easily? Or: No, never? Or: Only in water?"
+ },
+ {
+  "id": "p3-4-fb",
+  "text": "Not quite. The answer is: Yes, easily. Hippos can easily run faster than a human."
+ },
+ {
+  "id": "p3-5-q",
+  "text": "A group of hippos is NOT called a, Is it: herd? Or: bloat? Or: flock?"
+ },
+ {
+  "id": "p3-5-fb",
+  "text": "Not quite. The answer is: flock. A group is a herd, pod, dale or bloat — never a flock."
+ },
+ {
+  "id": "y1-0-q",
+  "text": "In the poem, a lion is, Is it: big and very strong? Or: small and soft? Or: quiet and gentle?"
+ },
+ {
+  "id": "y1-0-fb",
+  "text": "Not quite. The answer is: big and very strong. A lion is big and very strong."
+ },
+ {
+  "id": "y1-1-q",
+  "text": "What sound does a lion make? Is it: bleat? Or: roar? Or: squeak?"
+ },
+ {
+  "id": "y1-1-fb",
+  "text": "Not quite. The answer is: roar. A lion can roar in a great big way."
+ },
+ {
+  "id": "y1-2-q",
+  "text": "What sound does a lamb make? Is it: roar? Or: moo? Or: bleat?"
+ },
+ {
+  "id": "y1-2-fb",
+  "text": "Not quite. The answer is: bleat. A lamb can bleat in a quiet way."
+ },
+ {
+  "id": "y1-3-q",
+  "text": "The lamb's tail is, Is it: short and neat? Or: very long? Or: thick and curly?"
+ },
+ {
+  "id": "y1-3-fb",
+  "text": "Not quite. The answer is: short and neat. It has a tail thats short and neat."
+ },
+ {
+  "id": "y1-4-q",
+  "text": "What does mighty mean? Is it: kind? Or: strong? Or: quiet?"
+ },
+ {
+  "id": "y1-4-fb",
+  "text": "Not quite. The answer is: strong. mighty = strong."
+ },
+ {
+  "id": "y1-5-q",
+  "text": "What does gentle mean? Is it: kind? Or: loud? Or: fast?"
+ },
+ {
+  "id": "y1-5-fb",
+  "text": "Not quite. The answer is: kind. gentle = kind."
+ },
+ {
+  "id": "y1-6-q",
+  "text": "What does bleat mean? Is it: the loud sound of a wild animal? Or: the sound a sheep or goat makes? Or: the sound of running water?"
+ },
+ {
+  "id": "y1-6-fb",
+  "text": "Not quite. The answer is: the sound a sheep or goat makes. bleat = the sound that a sheep or goat makes."
+ },
+ {
+  "id": "y1-7-q",
+  "text": "Which word rhymes with strong? Is it: long? Or: song bird? Or: string?"
+ },
+ {
+  "id": "y1-7-fb",
+  "text": "Not quite. The answer is: long. strong : long."
+ },
+ {
+  "id": "y1-8-q",
+  "text": "Which word rhymes with sweet? Is it: street? Or: neat? Or: sheet?"
+ },
+ {
+  "id": "y1-8-fb",
+  "text": "Not quite. The answer is: neat. In the poem the rhyming pair is sweet : neat."
+ },
+ {
+  "id": "y1-9-q",
+  "text": "Which word rhymes with way? Is it: today? Or: away? Or: day time?"
+ },
+ {
+  "id": "y1-9-fb",
+  "text": "Not quite. The answer is: today. way : today."
+ },
+ {
+  "id": "y1-10-q",
+  "text": "Write the word that means the loud sound of a wild animal. Here is a hint. A lion does this — 4 letters."
+ },
+ {
+  "id": "y1-10-fb",
+  "text": "Not quite. The answer is: roar."
+ },
+ {
+  "id": "y1-11-q",
+  "text": "A lamb is small, soft and s blank . Here is a hint. Careful — double e in the middle."
+ },
+ {
+  "id": "y1-11-fb",
+  "text": "Not quite. The answer is: sweet."
+ },
+ {
+  "id": "y1-12-q",
+  "text": "A lamb can bleat in a q blank way. Here is a hint. q-u-i-e-t. Not quite!"
+ },
+ {
+  "id": "y1-12-fb",
+  "text": "Not quite. The answer is: quiet."
+ },
+ {
+  "id": "y2-0-q",
+  "text": "Who wrote The Swing? Is it: Robert Louis Stevenson? Or: William Wordsworth? Or: Robert Frost?"
+ },
+ {
+  "id": "y2-0-fb",
+  "text": "Not quite. The answer is: Robert Louis Stevenson. Robert Louis Stevenson — his name is at the foot of the poem."
+ },
+ {
+  "id": "y2-1-q",
+  "text": "Going up in a swing is the pleasantest thing, Is it: ever a child can do? Or: in the whole garden? Or: on a summer day?"
+ },
+ {
+  "id": "y2-1-fb",
+  "text": "Not quite. The answer is: ever a child can do. Oh, I do think it is the pleasantest thing / Ever a child can do!"
+ },
+ {
+  "id": "y2-2-q",
+  "text": "What does pleasantest mean? Is it: the fastest? Or: something you enjoy a lot / nicest? Or: the highest?"
+ },
+ {
+  "id": "y2-2-fb",
+  "text": "Not quite. The answer is: something you enjoy a lot / nicest. pleasantest = nicest, something you enjoy a lot."
+ },
+ {
+  "id": "y2-3-q",
+  "text": "What does cattle mean? Is it: cows, buffaloes and bulls kept as farm animals? Or: small birds? Or: tall trees?"
+ },
+ {
+  "id": "y2-3-fb",
+  "text": "Not quite. The answer is: cows, buffaloes and bulls kept as farm animals. Cattle are farm animals — cows, buffaloes and bulls."
+ },
+ {
+  "id": "y2-4-q",
+  "text": "What does countryside mean? Is it: a busy city street? Or: open green fields of a village? Or: the inside of a house?"
+ },
+ {
+  "id": "y2-4-fb",
+  "text": "Not quite. The answer is: open green fields of a village. countryside = open green fields of a village."
+ },
+ {
+  "id": "y2-5-q",
+  "text": "What does wide mean? Is it: broad? Or: narrow? Or: deep?"
+ },
+ {
+  "id": "y2-5-fb",
+  "text": "Not quite. The answer is: broad. wide = broad."
+ },
+ {
+  "id": "y2-6-q",
+  "text": "What can the child see from up in the air? Is it: A very busy street? Or: River and trees and cattle and all? Or: The fruit seller on the road?"
+ },
+ {
+  "id": "y2-6-fb",
+  "text": "Not quite. The answer is: River and trees and cattle and all. River and trees and cattle and all / Over the countryside—"
+ },
+ {
+  "id": "y2-7-q",
+  "text": "The roof the child looks down on is, Is it: so green? Or: so brown? Or: so blue?"
+ },
+ {
+  "id": "y2-7-fb",
+  "text": "Not quite. The answer is: so brown. Down on the roof so brown—"
+ },
+ {
+  "id": "y2-8-q",
+  "text": "Which word rhymes with swing? Is it: thing? Or: sing song? Or: spring?"
+ },
+ {
+  "id": "y2-8-fb",
+  "text": "Not quite. The answer is: thing. swing : thing."
+ },
+ {
+  "id": "y2-9-q",
+  "text": "Which word rhymes with brown? Is it: down? Or: town? Or: crown?"
+ },
+ {
+  "id": "y2-9-fb",
+  "text": "Not quite. The answer is: down. In the poem the pair is brown : down."
+ },
+ {
+  "id": "y2-10-q",
+  "text": "Unjumble: C T A L E T Is it: cattle? Or: cleat? Or: tackle?"
+ },
+ {
+  "id": "y2-10-fb",
+  "text": "Not quite. The answer is: cattle. C-A-T-T-L-E — cattle."
+ },
+ {
+  "id": "y2-11-q",
+  "text": "Unjumble: C L H D I Is it: child? Or: chill? Or: cilda?"
+ },
+ {
+  "id": "y2-11-fb",
+  "text": "Not quite. The answer is: child. C-H-I-L-D — child."
+ },
+ {
+  "id": "y2-12-q",
+  "text": "Unjumble and write: S I N W G Here is a hint. You sit on it and go up in the air."
+ },
+ {
+  "id": "y2-12-fb",
+  "text": "Not quite. The answer is: swing."
+ },
+ {
+  "id": "y2-13-q",
+  "text": "Unjumble and write: R E R I V Here is a hint. Water flows in it — 5 letters."
+ },
+ {
+  "id": "y2-13-fb",
+  "text": "Not quite. The answer is: river."
+ },
+ {
+  "id": "y2-14-q",
+  "text": "Write the word for open green fields of a village. One word! Here is a hint. country + side, joined together — no space in the middle."
+ },
+ {
+  "id": "y2-14-fb",
+  "text": "Not quite. The answer is: countryside."
+ },
+ {
+  "id": "ui-hello",
+  "text": "Hello Ashna! I am your reading friend. Let us practise English together!"
+ },
+ {
+  "id": "ui-yay",
+  "text": "Well done, Ashna!"
+ },
+ {
+  "id": "ui-r100",
+  "text": "Every single one right! Wonderful, Ashna!"
+ },
+ {
+  "id": "ui-r80",
+  "text": "That was really good!"
+ },
+ {
+  "id": "ui-r50",
+  "text": "Nice work, nearly there."
+ },
+ {
+  "id": "ui-r0",
+  "text": "Good try! Let us go once more."
+ }
+]
