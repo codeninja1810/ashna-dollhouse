@@ -121,7 +121,15 @@ h1 .amp{color:var(--lav-deep)}
 @keyframes twinkle{0%,100%{opacity:.25;transform:scale(.85)}50%{opacity:1;transform:scale(1.1)}}
 
 /* ---------- home rooms ---------- */
-.rooms{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:620px;margin:0 auto}
+.heroes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:680px;margin:0 auto}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:680px;margin:16px auto 0}
+.room.mini{flex-direction:row;text-align:left;padding:16px 18px;gap:14px;flex-wrap:wrap;align-items:center}
+.room.mini .room-icon{width:46px;height:46px;margin:0}
+.room.mini .room-name{font-size:17px;width:calc(100% - 62px)}
+.room.mini .room-sub{width:calc(100% - 62px);margin-top:-6px}
+.room.mini .room-bar{width:100%;margin-top:2px}
+.room.mini .room-count{width:100%;text-align:left}
+.room.mini .room-name,.room.mini .room-sub{margin-left:0}
 .room{
   background:var(--card);border:none;border-radius:24px;padding:22px 14px 18px;
   box-shadow:var(--shadow);
@@ -194,8 +202,9 @@ h1 .amp{color:var(--lav-deep)}
 .readstory svg{width:17px;height:17px}
 .readstory.speaking{background:var(--lav-pale)}
 
-.voicecard{max-width:620px;margin:22px auto 0;padding:18px 20px 20px}
-.voicecard h3{font-size:19px;color:var(--ink);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.voicecard{max-width:680px;margin:22px auto 0;padding:18px 20px 16px}
+.voicecard h3{font-size:19px;color:var(--ink);display:flex;align-items:center;gap:8px}
+.vhead{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
 .voicecard h3 svg{width:21px;height:21px;color:var(--lav-deep)}
 .vrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:12px}
 .vseg{display:flex;gap:9px;flex-wrap:wrap;margin-top:2px}
@@ -293,7 +302,14 @@ h1 .amp{color:var(--lav-deep)}
 .missed li{margin-bottom:7px;font-size:15.5px}
 .missed b{color:var(--mint)}
 
-.total{max-width:620px;margin:20px auto 0;text-align:center;color:var(--ink-soft);font-size:15px}
+.total{max-width:680px;margin:20px auto 0;text-align:center;color:var(--ink-soft);font-size:15px}
+
+/* ---------- reader ---------- */
+.readhead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
+.readtext{font-size:17.5px;line-height:1.85}
+.readtext p{margin:0 0 14px}
+.poemtext{font-family:'Baloo 2',sans-serif;font-weight:500;font-size:19px;line-height:1.75;text-align:center}
+.poemtext p{margin:0 0 20px}
 
 footer{text-align:center;margin-top:34px;font-size:13px;color:var(--ink-soft)}
 .reset{background:none;border:none;color:var(--ink-soft);text-decoration:underline;font-size:13px;padding:4px}
@@ -301,7 +317,8 @@ footer{text-align:center;margin-top:34px;font-size:13px;color:var(--ink-soft)}
 
 @media (max-width:520px){
   .wrap{padding-top:26px}
-  .rooms{gap:12px}
+  .heroes{grid-template-columns:1fr;gap:12px}
+  .minis{grid-template-columns:1fr;gap:12px}
   .room{padding:17px 10px 14px;border-radius:20px}
   .room-name{font-size:17px}
   .room-sub{font-size:12px}
@@ -318,7 +335,7 @@ footer{text-align:center;margin-top:34px;font-size:13px;color:var(--ink-soft)}
 <div class="wrap">
   <header id="hdr">
     <h1>Ashna's English <span class="amp">Dollhouse</span></h1>
-    <p class="tagline">Four rooms to visit before the English test ✦</p>
+    <p class="tagline">Your story, your poems, your word games ✦</p>
   </header>
   <main id="app"></main>
   <footer>
@@ -515,6 +532,60 @@ const ROOMS = [
   }
 ];
 
+/* Full texts from Ashna's own books — shown in a reader page and narrated in full. */
+const READS = [
+  { id:"read-hippo", room:"hippo", title:"Happy the Hippo", kind:"story",
+    paras:[
+      "Happy is a happy hippo. That is why, he is called Happy the hippo. One day, Happy is in the lake.",
+      "Along comes Penny the hen. She is looking for worms.",
+      "“Hello, Penny,” says Happy the hippo. “Hello, Happy,” says Penny.",
+      "“What are you doing?” asks Happy. “I am looking for worms,” says Penny.",
+      "“Oh! Good,” says Happy. “Can I help you?” “Yes, please do,” says Penny.",
+      "Happy the hippo comes out of the lake on to the squishy, squashy bank. Plod, plod, plod! Squish, squash, squelch, squeak!",
+      "Happy makes lots of holes in the mud. The worms come out. There are a lot of worms for Penny. “Thank you,” she says. “I am happy!”",
+      "Happy the hippo is puzzled. “No, you are not,” says Happy the hippo. “I am Happy.”",
+      "“No, no,” says Penny. She hops up and down. “You are silly, Happy!”",
+      "“No, I am not silly!” says Happy. “I am Happy the hippo.”",
+      "“Yes, yes, yes!” says Penny. “You are Happy the hippo and I am a happy hen. We are both happy!”",
+      "Then Penny the hen picks up a big, fat worm. She hops away, hop, hop, hop…"
+    ]},
+  { id:"read-lion", room:"lion", title:"Lion and Lamb", kind:"poem",
+    paras:[
+      "A lion is big and very strong\nIt has a tail that’s very long!\nA lion can roar in a great big way.\nI feel like a mighty lion today.",
+      "A lamb is small and soft and sweet\nIt has a tail that’s short and neat.\nA lamb can bleat in a quiet way.\nI feel like a gentle lamb today."
+    ]},
+  { id:"read-swing", room:"swing", title:"The Swing", kind:"poem", by:"Robert Louis Stevenson",
+    paras:[
+      "How do you like to go up in a swing,\nUp in the air so blue?\nOh, I do think it is the pleasantest thing\nEver a child can do!",
+      "Up in the air and over the wall,\nTill I can see so wide,\nRiver and trees and cattle and all\nOver the countryside—",
+      "Till I look down on the garden green,\nDown on the roof so brown—\nUp in the air I go flying again\nUp in the air and down!"
+    ]}
+];
+function readSpeechText(rd){
+  return rd.title + ". " + rd.paras.join(" ").replace(/\n/g,", ");
+}
+
+/* The home screen leads with the three texts; practice hangs off them. */
+const T = {};
+ROOMS.forEach(r=>r.topics.forEach(t=>T[t.id]=t));
+const UNITS = [
+  { id:"hippo", name:"Happy the Hippo", sub:"story + games", accent:"var(--rosep)", hero:true, read:"read-hippo",
+    icon:'<circle cx="22" cy="22" r="19" fill="#C9A6C4"/><ellipse cx="22" cy="25" rx="12" ry="8.5" fill="#fff"/><ellipse cx="17" cy="21" rx="2" ry="2.4" fill="#48273F"/><ellipse cx="27" cy="21" rx="2" ry="2.4" fill="#48273F"/><path d="M17 28q5 3 10 0" stroke="#48273F" stroke-width="1.8" fill="none" stroke-linecap="round"/>',
+    topics:[T.p1, T.p2, T.p3] },
+  { id:"lion", name:"Lion and the Lamb", sub:"poem + games", accent:"var(--star)", hero:true, read:"read-lion",
+    icon:'<g stroke="#E8A23F" stroke-width="3" stroke-linecap="round"><path d="M22 5v4M22 35v4M5 22h4M35 22h4M10 10l3 3M31 31l3 3M34 10l-3 3M13 31l-3 3"/></g><circle cx="22" cy="22" r="13" fill="#F3C05B"/><circle cx="22" cy="22" r="9.5" fill="#FFEDCB"/><circle cx="18.5" cy="20.5" r="1.6" fill="#48273F"/><circle cx="25.5" cy="20.5" r="1.6" fill="#48273F"/><circle cx="22" cy="24" r="1.5" fill="#48273F"/><path d="M19.5 27q2.5 2 5 0" stroke="#48273F" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+    topics:[T.y1] },
+  { id:"swing", name:"The Swing", sub:"poem + games", accent:"var(--mint)", hero:true, read:"read-swing",
+    icon:'<circle cx="22" cy="22" r="19" fill="#A5DFC9"/><path d="M13 9l3.2 17M31 9l-3.2 17" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><rect x="12.5" y="26" width="19" height="4.5" rx="2.2" fill="#fff"/><circle cx="22" cy="20" r="3.8" fill="#fff"/>',
+    topics:[T.y2] },
+  { id:"words", name:"Word Games", sub:"naming words · animal babies · one & many", accent:"var(--lav)",
+    icon:'<circle cx="22" cy="22" r="19" fill="#C3B3F5"/><rect x="9.5" y="14" width="12" height="12" rx="3" fill="#fff"/><rect x="22.5" y="18.5" width="12" height="12" rx="3" fill="#FFEDCB"/><text x="15.5" y="23.5" font-size="9" font-weight="800" text-anchor="middle" fill="#48273F" font-family="Baloo 2, sans-serif">A</text><text x="28.5" y="28" font-size="9" font-weight="800" text-anchor="middle" fill="#48273F" font-family="Baloo 2, sans-serif">B</text>',
+    topics:[T.g1, T.g2, T.g3, T.g4, T.g5] },
+  { id:"stories", name:"Surprise Stories", sub:"brand-new little stories", accent:"var(--peach)",
+    icon:'<circle cx="22" cy="22" r="19" fill="#FFBE97"/><path d="M12 14h7.5a3 3 0 0 1 3 3v14a3 3 0 0 0-3-3H12z" fill="#fff"/><path d="M32 14h-7.5a3 3 0 0 0-3 3v14a3 3 0 0 1 3-3H32z" fill="#FFEDDD"/><path d="M28.5 6.5l1 2.3 2.3 1-2.3 1-1 2.3-1-2.3-2.3-1 2.3-1z" fill="#fff"/>',
+    topics:[T.c1, T.c2, T.c3] }
+];
+
 /* ================= STATE ================= */
 
 const KEY = "ashna-english-dollhouse-v1";
@@ -523,12 +594,9 @@ try { saved = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e){ s
 
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(saved)); }catch(e){} }
 
-const view = { at:"home", room:null, topic:null, i:0, right:0, answered:false, picked:null, missed:[] };
+const view = { at:"home", room:null, topic:null, read:null, i:0, right:0, answered:false, picked:null, missed:[] };
 
-function topicOf(roomId, topicId){
-  const r = ROOMS.find(x=>x.id===roomId);
-  return r ? r.topics.find(t=>t.id===topicId) : null;
-}
+function topicOf(roomId, topicId){ return T[topicId] || null; }
 function roomTotal(room){ return room.topics.reduce((n,t)=>n+t.qs.length,0); }
 function roomScore(room){ return room.topics.reduce((n,t)=>n+(saved[t.id]?saved[t.id].right:0),0); }
 
@@ -539,7 +607,6 @@ const speech = { on:true, mode:"neerja", uri:null, voices:[] };
 try {
   const p = JSON.parse(localStorage.getItem(VKEY) || "{}");
   if(typeof p.on === "boolean") speech.on = p.on;
-  if(p.mode === "neerja" || p.mode === "prabhat" || p.mode === "device") speech.mode = p.mode;
   if(p.uri) speech.uri = p.uri;
 } catch(e){}
 function saveVoicePrefs(){ try{ localStorage.setItem(VKEY, JSON.stringify({on:speech.on, mode:speech.mode, uri:speech.uri})); }catch(e){} }
@@ -693,43 +760,33 @@ function burst(host){
 /* ================= VIEWS ================= */
 
 function renderHome(){
-  refreshVoices();
-  let rooms = "";
-  ROOMS.forEach(r=>{
-    const tot = roomTotal(r), got = roomScore(r);
+  const hero = u => {
+    const tot = roomTotal(u), got = roomScore(u);
     const pct = tot ? Math.round(got/tot*100) : 0;
-    rooms += '<button class="room" data-room="'+r.id+'">'+
-      '<svg class="room-icon" viewBox="0 0 44 44" aria-hidden="true">'+r.icon+'</svg>'+
-      '<span class="room-name">'+esc(r.name)+'</span>'+
-      '<span class="room-sub">'+esc(r.sub)+'</span>'+
-      '<span class="room-bar"><i style="width:'+pct+'%;background:'+r.accent+'"></i></span>'+
+    return '<button class="room'+(u.hero?"":" mini")+'" data-room="'+u.id+'">'+
+      '<svg class="room-icon" viewBox="0 0 44 44" aria-hidden="true">'+u.icon+'</svg>'+
+      '<span class="room-name">'+esc(u.name)+'</span>'+
+      '<span class="room-sub">'+esc(u.sub)+'</span>'+
+      '<span class="room-bar"><i style="width:'+pct+'%;background:'+u.accent+'"></i></span>'+
       '<span class="room-count">'+got+' / '+tot+' ★</span>'+
       '</button>';
-  });
+  };
+  const heroes = UNITS.filter(u=>u.hero).map(hero).join("");
+  const minis  = UNITS.filter(u=>!u.hero).map(hero).join("");
 
-  const allTot = ROOMS.reduce((n,r)=>n+roomTotal(r),0);
-  const allGot = ROOMS.reduce((n,r)=>n+roomScore(r),0);
+  const allTot = UNITS.reduce((n,u)=>n+roomTotal(u),0);
+  const allGot = UNITS.reduce((n,u)=>n+roomScore(u),0);
 
   app.innerHTML =
-    '<div class="rooms">'+rooms+'</div>'+
+    '<div class="heroes">'+heroes+'</div>'+
+    '<div class="minis">'+minis+'</div>'+
     '<div class="card voicecard">'+
-      '<h3>'+SPK_INK+' Who reads to you?</h3>'+
+      '<div class="vhead"><h3>'+SPK_INK+' Neerja reads to you</h3>'+
+      '<button class="go" id="vtest">Hear her</button></div>'+
       '<label class="tog"><input type="checkbox" id="togread"'+(speech.on?" checked":"")+'>'+
-        '<span class="track"></span>Read the questions out loud</label>'+
-      '<div class="vseg" role="group" aria-label="Choose a voice">'+
-        '<button class="vopt'+(speech.mode==="neerja"?" sel":"")+'" data-mode="neerja"><em>👩🏽</em>Neerja<span>Indian female</span></button>'+
-        '<button class="vopt'+(speech.mode==="prabhat"?" sel":"")+'" data-mode="prabhat"><em>👨🏽</em>Prabhat<span>Indian male</span></button>'+
-        '<button class="vopt'+(speech.mode==="device"?" sel":"")+'" data-mode="device"><em>📱</em>Device<span>this device’s voice</span></button>'+
-      '</div>'+
-      '<div class="vrow" id="devrow"'+(speech.mode==="device"?"":' style="display:none"')+'>'+
-        '<select class="vsel" id="vsel" aria-label="Choose a device voice"></select>'+
-      '</div>'+
-      '<div class="vrow"><button class="go" id="vtest">Hear the voice</button></div>'+
-      '<p class="vnote">Neerja and Prabhat live inside the app, so they sound just as sweet on every phone and tablet.</p>'+
+        '<span class="track"></span>Read everything out loud</label>'+
     '</div>'+
     '<p class="total">'+allGot+' of '+allTot+' stars collected ✦</p>';
-
-  fillVoiceSelect();
 
   app.querySelectorAll("[data-room]").forEach(b=>{
     b.addEventListener("click",()=>{ view.at="room"; view.room=b.dataset.room; render(); });
@@ -737,19 +794,6 @@ function renderHome(){
   document.getElementById("togread").addEventListener("change", e=>{
     speech.on = e.target.checked; saveVoicePrefs();
     if(!speech.on) hush();
-  });
-  app.querySelectorAll(".vopt").forEach(b=>{
-    b.addEventListener("click", ()=>{
-      speech.mode = b.dataset.mode; saveVoicePrefs();
-      app.querySelectorAll(".vopt").forEach(x=>x.classList.toggle("sel", x===b));
-      document.getElementById("devrow").style.display = speech.mode==="device" ? "" : "none";
-      const was = speech.on; speech.on = true;
-      play("ui-hello", "Hello Ashna! I am your reading friend. Let us practise English together!", b);
-      speech.on = was;
-    });
-  });
-  document.getElementById("vsel").addEventListener("change", e=>{
-    speech.uri = e.target.value || null; saveVoicePrefs();
   });
   document.getElementById("vtest").addEventListener("click", e=>{
     const was = speech.on; speech.on = true;
@@ -759,8 +803,14 @@ function renderHome(){
 }
 
 function renderRoom(){
-  const r = ROOMS.find(x=>x.id===view.room);
+  const r = UNITS.find(x=>x.id===view.room);
   let list = "";
+  READS.filter(rd=>rd.room===r.id).forEach(rd=>{
+    list += '<button class="topic reader" data-read="'+rd.id+'">'+
+      '<span class="topic-n">📖</span>'+
+      '<span class="topic-t"><b>'+esc(rd.title)+'</b><span>'+(rd.kind==="poem"?"read the whole poem":"read the whole story")+'</span></span>'+
+      '</button>';
+  });
   r.topics.forEach((t,idx)=>{
     const rec = saved[t.id];
     const got = rec ? rec.right : 0;
@@ -781,6 +831,9 @@ function renderRoom(){
     '</div>';
 
   document.getElementById("back").addEventListener("click",()=>{ view.at="home"; render(); });
+  app.querySelectorAll("[data-read]").forEach(b=>{
+    b.addEventListener("click",()=>{ view.at="read"; view.read=b.dataset.read; render(); });
+  });
   app.querySelectorAll("[data-topic]").forEach(b=>{
     b.addEventListener("click",()=>{
       view.at="quiz"; view.topic=b.dataset.topic;
@@ -788,6 +841,34 @@ function renderRoom(){
       render();
     });
   });
+}
+
+function renderRead(){
+  const rd = READS.find(x=>x.id===view.read);
+  if(!rd){ view.at="room"; return render(); }
+  const cls = rd.kind==="poem" ? "readtext poemtext" : "readtext";
+  const body = rd.paras.map(p=>'<p>'+esc(p).replace(/\n/g,"<br>")+'</p>').join("");
+
+  app.innerHTML =
+    '<button class="back" id="back">← Back to '+esc(UNITS.find(x=>x.id===rd.room).name)+'</button>'+
+    '<div class="card">'+
+      '<div class="readhead">'+
+        '<div><h2 class="room-title">'+esc(rd.title)+'</h2>'+
+        (rd.by?'<p class="room-head-sub">by '+esc(rd.by)+'</p>':'')+'</div>'+
+        '<button class="speak" id="readall" aria-label="Read it all to me">'+SPK+'</button>'+
+      '</div>'+
+      '<div class="'+cls+'">'+body+'</div>'+
+      '<div class="nextrow"><button class="go" id="readbig">'+SPK_INK.replace("currentColor","#fff")+' Read it to me</button></div>'+
+    '</div>';
+
+  document.getElementById("back").addEventListener("click",()=>{ view.at="room"; view.room=rd.room; render(); });
+  const go = (el)=>{
+    const was = speech.on; speech.on = true;
+    play(rd.id, readSpeechText(rd), el);
+    speech.on = was;
+  };
+  document.getElementById("readall").addEventListener("click", e=>go(e.currentTarget));
+  document.getElementById("readbig").addEventListener("click", e=>go(e.currentTarget));
 }
 
 function renderQuiz(){
@@ -838,7 +919,7 @@ function renderQuiz(){
   }
 
   app.innerHTML =
-    '<button class="back" id="back">← Back to '+esc(ROOMS.find(x=>x.id===view.room).name)+'</button>'+
+    '<button class="back" id="back">← Back to '+esc(UNITS.find(x=>x.id===view.room).name)+'</button>'+
     '<div class="card">'+
       '<div class="qhead"><span class="qcount">Question '+(view.i+1)+' of '+t.qs.length+'</span>'+
       '<span class="pbar"><i style="width:'+pct+'%"></i></span></div>'+
@@ -954,6 +1035,7 @@ function render(){
   hush();
   if(view.at === "home") renderHome();
   else if(view.at === "room") renderRoom();
+  else if(view.at === "read") renderRead();
   else renderQuiz();
   window.scrollTo({top:0,behavior:"instant"});
 }
