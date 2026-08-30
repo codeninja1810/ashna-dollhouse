@@ -613,7 +613,9 @@ function saveVoicePrefs(){ try{ localStorage.setItem(VKEY, JSON.stringify({on:sp
 
 /* Recorded Indian voices (Neerja / Prabhat) shipped with the site as MP3 clips.
    play() tries the clip first and falls back to the device voice if it is missing. */
-const AUDIO_BASE = "audio/";
+const AUDIO_BASE = location.hostname.endsWith("vercel.app")
+  ? "https://codeninja1810.github.io/ashna-dollhouse/audio/"
+  : "audio/";
 let currentAudio = null;
 function play(id, fallbackText, el){
   if(!speech.on) return;
