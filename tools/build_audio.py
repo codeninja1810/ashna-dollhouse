@@ -11,7 +11,19 @@ VOICES = {
     "neerja":  "en-IN-NeerjaExpressiveNeural",
     "prabhat": "en-IN-PrabhatNeural",
 }
-RATE = "-8%"   # a touch slower for a 7-year-old
+RATE = "-20%"  # nice and slow for a 7-year-old
+
+# Words the en-IN voices mispronounce: feed a phonetic respelling to the TTS.
+# The screen always shows the real spelling; only the audio uses these.
+import re
+PRONOUNCE = [
+    (r"\bworms\b", "wurms"), (r"\bWorms\b", "Wurms"),
+    (r"\bworm\b",  "wurm"),  (r"\bWorm\b",  "Wurm"),
+]
+def spoken(text):
+    for pat, rep in PRONOUNCE:
+        text = re.sub(pat, rep, text)
+    return text
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LINES = json.loads((ROOT / "audio_lines.json").read_text())
 SEM = asyncio.Semaphore(6)
@@ -23,7 +35,7 @@ async def make(voice_dir, voice_name, line):
     async with SEM:
         for attempt in range(4):
             try:
-                tts = edge_tts.Communicate(line["text"], voice_name, rate=RATE)
+                tts = edge_tts.Communicate(spoken(line["text"]), voice_name, rate=RATE)
                 await tts.save(str(out))
                 if out.stat().st_size > 1000:
                     return "ok"
