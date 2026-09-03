@@ -4,7 +4,7 @@ Grade 2 English practice, matched to Ashna's exam portion. A dollhouse with four
 rooms — Comprehension, Grammar, Prose, Poetry — 124 questions drawn from her own
 workbooks. Stars save in the browser (localStorage), so keep using the same device.
 
-**Live:** https://codeninja1810.github.io/ashna-dollhouse/
+**Live:** https://ashna-dollhouse.vercel.app
 
 ## Stack
 Single static page — no build step, no dependencies. `index.html` is the whole app.
